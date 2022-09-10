@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+}
+
+.topcontainer{
+    background-color: #1f2937;
+}
+
+.header{
+   
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-header, .right-header{
+    font-size: 18px;
+}
+
+.right-header{
+    color:lightgray;
+}
+
+.left-header{
+    color:white;
+    font-weight: bold;
+}
+
+ul{
+    display:flex;
+    gap:20px
+}
+
+li{
+
+    list-style: none;
+}
+
+
