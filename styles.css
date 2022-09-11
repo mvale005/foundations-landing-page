@@ -116,3 +116,42 @@ button{
     margin-top: 10px;
 }
 
+.container3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+}
+
+.signupbox{
+    height:200px;
+    width:1000px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;;
+
+    border: 1px black solid;
+    background-color: #3882f6;
+    border-radius: 25px;
+}
+
+.call{
+    color:white;
+    font-weight: bold;
+    font-size: 1.75em;
+    margin-bottom: 0;
+}
+
+.itstime{
+    color:white;
+    margin-top: 0;
+}
+
+.footer{
+    height:100px;
+    background-color:#1f2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
