@@ -7,6 +7,8 @@ body{
 .topcontainer{
     background-color: #1f2937;
     height:400px;
+    flex-direction: column;
+    display: flex;
    
 }
 
@@ -50,6 +52,9 @@ li{
 .left,.right{
     width: 550px;
      color:white;
+     flex-direction: column;
+     display: flex;
+     flex-wrap: wrap;
 }
 
 .right{
@@ -63,21 +68,30 @@ button{
     font-size: 1em;
     padding:10px;
     border-radius: 10px;
+    width:100px;
 }
 
 
-.container1{
+.container1, .container2{
  display:flex; 
  justify-content: center;  
 }
+.container2{
+    height:300px;
+    align-items: center;
+    background-color: lightgray;   
+}
+
+.quotebox{
+    width:800px;
+    font-size:1.75em;
+    font-style:italic;
+}
 
 .pic-container{
-    height:400px;
     width:1000px;
-    border: 1px solid black;
     display:flex;
     justify-content: center;
-    align-content: center;
     flex-wrap: wrap;
     gap:20px;
 }
@@ -98,7 +112,7 @@ button{
 .textbox{
     width:200px;
     height:100px;
-    border: 3px solid #3882f6;
     text-align: center;
+    margin-top: 10px;
 }
 
